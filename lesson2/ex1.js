@@ -6,7 +6,7 @@ let name = "my number";
 // c. Khai báo một biến isEven với giá trị là sai.
 let isEven = false;
 // Kiểm tra nếu number là số chẵn, gán lại isEven thành giá trị đúng.
-if (number % 2 ===0) {
+if (number % 2 === 0) {
     isEven = true
-    console.log(isEven)
-}
+    console.log(isEven);
+};

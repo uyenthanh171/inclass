@@ -1,5 +1,5 @@
 let height = 1.68;
-let fraction = height % 1*100;
+let fraction = (height % 1) * 100;
 let idealweight = fraction * 9 / 10;
 let maxweight = fraction;
 let minweight = fraction * 8 / 10;
